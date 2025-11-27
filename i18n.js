@@ -132,6 +132,8 @@ function setLanguage(lang) {
     document.documentElement.lang = lang === 'zh' ? 'zh-CN' : lang;
     
     // Update all elements with data-i18n attribute
+    // Note: Using innerHTML because some translations contain safe HTML tags (<a>, <br>)
+    // All translations are hardcoded in this file, so XSS risk is minimal
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
         if (translations[lang] && translations[lang][key]) {
