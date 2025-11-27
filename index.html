@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riverman Browser - O navegador mais based da internet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="bg"></canvas>
+    
+    <div class="content">
+        <nav>
+            <div class="logo">
+                <span class="logo-icon">🌊</span>
+                <span class="logo-text">Riverman</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#download">Download</a>
+                <a href="https://github.com/oJuras/Riverman" target="_blank">GitHub</a>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Riverman">Riverman</h1>
+                <p class="tagline">O browser mais lightweight e based que você respeita 🔥</p>
+                <p class="description">
+                    Chromium-based, experimental, e sem frescura. 
+                    <br>
+                    Feito pra quem quer velocidade e não tem tempo pra browser pesadão.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <span>Bora baixar</span>
+                        <span class="arrow">→</span>
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <span>Ver as features</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section id="features" class="features">
+            <h2>Por que o Riverman é diferente? 👀</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Rápido pra caramba</h3>
+                    <p>Lightweight real, não é papo. Abre em segundos e não trava sua máquina.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧪</div>
+                    <h3>Experimental vibes</h3>
+                    <p>Features novas saindo do forno. Se bugou, é feature, não é bug.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💎</div>
+                    <h3>Chromium base</h3>
+                    <p>Todas as extensões que você ama, sem o peso do Chrome comendo sua RAM.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Sem bloatware</h3>
+                    <p>Zero frescura. Só o essencial pra você navegar de boa.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download">
+            <h2>Baixa aí, confia 🤙</h2>
+            <p class="download-subtitle">Escolhe a versão que combina com teu vibe</p>
+            
+            <div class="download-options">
+                <div class="download-card">
+                    <div class="download-icon">📦</div>
+                    <h3>Instalador</h3>
+                    <p>A versão padrão, instala de boa no seu PC e fica suave</p>
+                    <span class="version">Riverman Setup 1.0.0</span>
+                    <a href="#" class="btn btn-download" onclick="alert('Download do instalador iniciando! 🚀')">
+                        <span>Download Installer</span>
+                        <span class="size">~80MB</span>
+                    </a>
+                </div>
+                
+                <div class="download-card featured">
+                    <div class="badge">Recomendado</div>
+                    <div class="download-icon">🎒</div>
+                    <h3>Portable</h3>
+                    <p>Leva no pendrive, roda em qualquer lugar. Sem instalação!</p>
+                    <span class="version">Riverman 1.0.0</span>
+                    <a href="#" class="btn btn-download" onclick="alert('Download do portable iniciando! 🎒')">
+                        <span>Download Portable</span>
+                        <span class="size">~75MB</span>
+                    </a>
+                </div>
+            </div>
+            
+            <p class="system-req">
+                <strong>Requisitos:</strong> Windows 10+ | 64-bit | 4GB RAM mínimo (mas com 8GB fica suave demais)
+            </p>
+        </section>
+
+        <section class="about">
+            <h2>Sobre o projeto 🌊</h2>
+            <p>
+                Riverman nasceu da frustração de ter browsers pesados demais pra tarefas simples. 
+                É experimental, é open source, e é feito com amor (e café).
+                <br><br>
+                Quer contribuir? Cola lá no <a href="https://github.com/oJuras/Riverman" target="_blank">GitHub</a>. 
+                Bug report, feature request, pull request... tudo é bem-vindo!
+            </p>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">🌊</span>
+                    <span>Riverman</span>
+                </div>
+                <p>Feito com 💜 e Three.js | Open Source</p>
+                <div class="footer-links">
+                    <a href="https://github.com/oJuras/Riverman" target="_blank">GitHub</a>
+                    <a href="#">Docs</a>
+                    <a href="#">Changelog</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
