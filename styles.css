@@ -1,4 +1,4 @@
-/* Reset e base */
+/* Reset and base */
 * {
     margin: 0;
     padding: 0;
@@ -499,7 +499,7 @@ footer p {
     }
 }
 
-/* Scrollbar customizado */
+/* Custom scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }

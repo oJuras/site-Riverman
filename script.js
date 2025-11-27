@@ -261,5 +261,3 @@ document.querySelectorAll('.feature-card, .download-card').forEach(el => {
     observer.observe(el);
 });
 
-console.log('🌊 Riverman - O browser mais based da internet!');
-console.log('✨ Three.js animation loaded successfully');
