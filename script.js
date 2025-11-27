@@ -12,10 +12,10 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 camera.position.setZ(30);
 camera.position.setX(-3);
 
-// Colors
-const primaryColor = 0x6366f1;
-const secondaryColor = 0x22d3ee;
-const accentColor = 0xf472b6;
+// Colors - Neon Pink and Neon Blue
+const primaryColor = 0x00d4ff;    // Neon Blue
+const secondaryColor = 0xff00ff;   // Neon Pink
+const accentColor = 0xff00ff;      // Neon Pink
 
 // Create main torus - represents the browser
 const torusGeometry = new THREE.TorusGeometry(10, 3, 16, 100);
