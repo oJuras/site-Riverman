@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riverman Browser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="bg"></canvas>
+    
+    <div class="content">
+        <nav>
+            <div class="logo">
+                <span class="logo-icon">🌊</span>
+                <span class="logo-text">Riverman</span>
+            </div>
+            <div class="nav-right">
+                <div class="nav-links">
+                    <a href="#features" data-i18n="nav.features">Recursos</a>
+                    <a href="#download" data-i18n="nav.download">Download</a>
+                </div>
+                <div class="language-selector">
+                    <button class="lang-btn" data-lang="pt" title="Português">PT</button>
+                    <button class="lang-btn" data-lang="en" title="English">EN</button>
+                    <button class="lang-btn" data-lang="es" title="Español">ES</button>
+                    <button class="lang-btn" data-lang="zh" title="中文">中文</button>
+                </div>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Riverman">Riverman</h1>
+                <p class="tagline" data-i18n="hero.tagline">Navegador leve, rápido e experimental</p>
+                <p class="description" data-i18n="hero.description">
+                    Baseado em Chromium, desenvolvido para performance. 
+                    <br>
+                    Para quem valoriza velocidade e eficiência.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <span data-i18n="hero.download">Download</span>
+                        <span class="arrow">→</span>
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <span data-i18n="hero.features">Ver Recursos</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section id="features" class="features">
+            <h2 data-i18n="features.title">Por que escolher o Riverman?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 data-i18n="features.fast.title">Ultra Rápido</h3>
+                    <p data-i18n="features.fast.desc">Inicialização instantânea e navegação fluida. Otimizado para máxima performance.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧪</div>
+                    <h3 data-i18n="features.experimental.title">Experimental</h3>
+                    <p data-i18n="features.experimental.desc">Recursos inovadores em constante desenvolvimento. Sempre à frente.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💎</div>
+                    <h3 data-i18n="features.chromium.title">Base Chromium</h3>
+                    <p data-i18n="features.chromium.desc">Compatível com todas as extensões do Chrome, sem o consumo excessivo de memória.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3 data-i18n="features.lightweight.title">Leve e Limpo</h3>
+                    <p data-i18n="features.lightweight.desc">Sem recursos desnecessários. Apenas o essencial para uma navegação eficiente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download">
+            <h2 data-i18n="download.title">Download</h2>
+            <p class="download-subtitle" data-i18n="download.subtitle">Escolha a versão ideal para você</p>
+            
+            <div class="download-options">
+                <div class="download-card">
+                    <div class="download-icon">📦</div>
+                    <h3 data-i18n="download.installer.title">Instalador</h3>
+                    <p data-i18n="download.installer.desc">Versão completa com instalação tradicional no sistema</p>
+                    <span class="version">Riverman Setup 1.0.0</span>
+                    <a href="#" class="btn btn-download">
+                        <span>Download Installer</span>
+                        <span class="size">~80MB</span>
+                    </a>
+                </div>
+                
+                <div class="download-card featured">
+                    <div class="badge" data-i18n="download.recommended">Recomendado</div>
+                    <div class="download-icon">🎒</div>
+                    <h3>Portable</h3>
+                    <p data-i18n="download.portable.desc">Execute de qualquer lugar, sem necessidade de instalação</p>
+                    <span class="version">Riverman 1.0.0</span>
+                    <a href="#" class="btn btn-download">
+                        <span>Download Portable</span>
+                        <span class="size">~75MB</span>
+                    </a>
+                </div>
+            </div>
+            
+            <p class="system-req">
+                <strong data-i18n="download.requirements">Requisitos:</strong> Windows 10+ | 64-bit | 4GB RAM <span data-i18n="download.minimum">mínimo</span> (<span data-i18n="download.recommended_ram">8GB recomendado</span>)
+            </p>
+        </section>
+
+        <section class="about">
+            <h2 data-i18n="about.title">Sobre o Projeto</h2>
+            <p data-i18n="about.description">
+                Riverman foi criado para oferecer uma alternativa leve aos navegadores tradicionais. 
+                É experimental, open source e focado em performance.
+            </p>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">🌊</span>
+                    <span>Riverman</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Docs</a>
+                    <a href="#">Changelog</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha384-OLBgp1GsljhM2TJ+sbHjaiH9txEUvgdDTAzHv2P24donTt6/529l+9Ua0vFImLlb" crossorigin="anonymous"></script>
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
