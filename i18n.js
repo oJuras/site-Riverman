@@ -26,9 +26,7 @@ const translations = {
         'download.minimum': 'mínimo',
         'download.recommended_ram': '8GB recomendado',
         'about.title': 'Sobre o Projeto',
-        'about.description': 'Riverman foi criado para oferecer uma alternativa leve aos navegadores tradicionais. É experimental, open source e focado em performance.',
-        'about.contribute': 'Quer contribuir? Acesse nosso <a href="https://github.com/oJuras/Riverman" target="_blank">GitHub</a>. Bug reports, feature requests e pull requests são bem-vindos!',
-        'footer.made': 'Feito com Three.js | Open Source'
+        'about.description': 'Riverman foi criado para oferecer uma alternativa leve aos navegadores tradicionais. É experimental, open source e focado em performance.'
     },
     en: {
         'nav.features': 'Features',
@@ -56,9 +54,7 @@ const translations = {
         'download.minimum': 'minimum',
         'download.recommended_ram': '8GB recommended',
         'about.title': 'About the Project',
-        'about.description': 'Riverman was created to offer a lightweight alternative to traditional browsers. It is experimental, open source and focused on performance.',
-        'about.contribute': 'Want to contribute? Visit our <a href="https://github.com/oJuras/Riverman" target="_blank">GitHub</a>. Bug reports, feature requests and pull requests are welcome!',
-        'footer.made': 'Made with Three.js | Open Source'
+        'about.description': 'Riverman was created to offer a lightweight alternative to traditional browsers. It is experimental, open source and focused on performance.'
     },
     es: {
         'nav.features': 'Características',
@@ -86,9 +82,7 @@ const translations = {
         'download.minimum': 'mínimo',
         'download.recommended_ram': '8GB recomendado',
         'about.title': 'Sobre el Proyecto',
-        'about.description': 'Riverman fue creado para ofrecer una alternativa ligera a los navegadores tradicionales. Es experimental, open source y enfocado en rendimiento.',
-        'about.contribute': '¿Quieres contribuir? Visita nuestro <a href="https://github.com/oJuras/Riverman" target="_blank">GitHub</a>. Bug reports, feature requests y pull requests son bienvenidos!',
-        'footer.made': 'Hecho con Three.js | Open Source'
+        'about.description': 'Riverman fue creado para ofrecer una alternativa ligera a los navegadores tradicionales. Es experimental, open source y enfocado en rendimiento.'
     },
     zh: {
         'nav.features': '功能',
@@ -116,9 +110,7 @@ const translations = {
         'download.minimum': '最低',
         'download.recommended_ram': '推荐8GB',
         'about.title': '关于项目',
-        'about.description': 'Riverman的创建是为了提供传统浏览器的轻量级替代品。它是实验性的、开源的，专注于性能。',
-        'about.contribute': '想要贡献？访问我们的<a href="https://github.com/oJuras/Riverman" target="_blank">GitHub</a>。欢迎提交Bug报告、功能请求和Pull Request！',
-        'footer.made': '使用Three.js构建 | 开源'
+        'about.description': 'Riverman的创建是为了提供传统浏览器的轻量级替代品。它是实验性的、开源的，专注于性能。'
     }
 };
 
