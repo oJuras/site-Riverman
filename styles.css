@@ -75,6 +75,9 @@ nav {
 .logo-icon {
     width: 1.8rem;
     height: 1.8rem;
+    max-width: 1.8rem;
+    max-height: 1.8rem;
+    object-fit: contain;
 }
 
 .nav-right {
@@ -485,6 +488,14 @@ footer {
     font-weight: 700;
     font-size: 1.3rem;
     margin-bottom: 1rem;
+}
+
+.footer-logo .logo-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    object-fit: contain;
 }
 
 footer p {
