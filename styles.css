@@ -73,7 +73,8 @@ nav {
 }
 
 .logo-icon {
-    font-size: 1.8rem;
+    width: 1.8rem;
+    height: 1.8rem;
 }
 
 .nav-right {
@@ -132,14 +133,15 @@ nav {
 .hero {
     min-height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    padding: 6rem 5% 4rem;
+    padding: 8rem 5% 4rem;
     text-align: center;
 }
 
 .hero-content {
     max-width: 800px;
+    margin-top: 5rem;
 }
 
 h1 {
