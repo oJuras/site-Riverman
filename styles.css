@@ -442,6 +442,15 @@ h1 {
     font-size: 0.9rem;
 }
 
+.download-archive {
+    margin-top: 1rem;
+    color: var(--text-secondary);
+}
+
+.download-archive a {
+    color: var(--text-primary);
+}
+
 /* About Section */
 .about {
     padding: 6rem 5%;
@@ -465,6 +474,21 @@ h1 {
 
 .about a:hover {
     color: var(--secondary);
+}
+
+.docs-guide {
+    margin-bottom: 1.5rem;
+}
+
+.changelog-list {
+    margin: 1rem auto 0;
+    padding-inline-start: 1.5rem;
+    text-align: start;
+    color: var(--text-secondary);
+}
+
+.changelog-list li + li {
+    margin-top: 0.75rem;
 }
 
 /* Footer */

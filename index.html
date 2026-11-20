@@ -89,22 +89,22 @@
                     <div class="download-icon">📦</div>
                     <h3 data-i18n="download.installer.title">Instalador</h3>
                     <p data-i18n="download.installer.desc">Versão completa com instalação tradicional no sistema</p>
-                    <span class="version">Riverman Setup 1.0.0</span>
-                    <a href="Riverman Setup 1.0.0.exe" class="btn btn-download" download>
-                        <span>Download Installer</span>
-                        <span class="size">~80MB</span>
+                    <span class="version">Riverman Setup 1.0.1 · Windows x64</span>
+                    <a href="Riverman-Setup-1.0.1.exe" class="btn btn-download" download>
+                        <span data-i18n="download.installer.button">Baixar instalador</span>
+                        <span class="size">~86 MB</span>
                     </a>
                 </div>
                 
                 <div class="download-card featured">
                     <div class="badge" data-i18n="download.recommended">Recomendado</div>
                     <div class="download-icon">🎒</div>
-                    <h3>Portable</h3>
+                    <h3 data-i18n="docs.portable.title">Versão portátil</h3>
                     <p data-i18n="download.portable.desc">Execute de qualquer lugar, sem necessidade de instalação</p>
-                    <span class="version">Riverman 1.0.0</span>
-                    <a href="Riverman 1.0.0.exe" class="btn btn-download" download>
-                        <span>Download Portable</span>
-                        <span class="size">~75MB</span>
+                    <span class="version">Riverman 1.0.1 · Windows x64</span>
+                    <a href="Riverman-Portable-1.0.1.exe" class="btn btn-download" download>
+                        <span data-i18n="download.portable.button">Baixar versão portátil</span>
+                        <span class="size">~86 MB</span>
                     </a>
                 </div>
             </div>
@@ -112,6 +112,39 @@
             <p class="system-req">
                 <strong data-i18n="download.requirements">Requisitos:</strong> Windows 10+ | 64-bit | 4GB RAM <span data-i18n="download.minimum">mínimo</span> (<span data-i18n="download.recommended_ram">8GB recomendado</span>)
             </p>
+            <p class="download-archive">
+                <strong data-i18n="download.previous">Versões anteriores</strong> · 1.0.0:
+                <a href="Riverman%20Setup%201.0.0.exe" download data-i18n="download.installer.title">Instalador</a> ·
+                <a href="Riverman%201.0.0.exe" download data-i18n="docs.portable.title">Versão portátil</a>
+            </p>
+        </section>
+
+        <section id="docs" class="about" aria-labelledby="docs-title">
+            <h2 id="docs-title" data-i18n="docs.title">Documentação</h2>
+            <div class="docs-guide">
+                <h3 data-i18n="download.installer.title">Instalador</h3>
+                <p data-i18n="docs.installer">Baixe o instalador para Windows, abra o arquivo .exe e siga as etapas na tela.</p>
+            </div>
+            <div class="docs-guide">
+                <h3 data-i18n="docs.portable.title">Versão portátil</h3>
+                <p data-i18n="docs.portable">Baixe o arquivo .exe portátil e abra-o diretamente, sem instalar o navegador.</p>
+            </div>
+            <div class="docs-guide">
+                <h3 data-i18n="docs.tools.title">Ferramentas na 1.0.1</h3>
+                <p data-i18n="docs.tools">Ao abrir uma ferramenta novamente, o Riverman seleciona a aba interna que já está aberta. Na aba Downloads, escolha um download para acompanhar seu progresso ou pausá-lo, retomá-lo ou cancelá-lo.</p>
+            </div>
+            <p class="docs-guide" data-i18n="docs.unsigned">Os executáveis Windows x64 da versão 1.0.1 não são assinados. O Microsoft Defender SmartScreen pode exibir um aviso.</p>
+            <a href="#download" data-i18n="docs.download">Ver downloads e requisitos</a>
+        </section>
+
+        <section id="changelog" class="about" aria-labelledby="changelog-title">
+            <h2 id="changelog-title" data-i18n="changelog.title">Histórico de versões</h2>
+            <h3>1.0.0 → 1.0.1</h3>
+            <ul class="changelog-list">
+                <li data-i18n="changelog.tabs">Configurações, Downloads, Extensões, Notepad, Reader, Pinboard, Timeline, Logs, senhas salvas e minijogos abrem em abas internas em vez de sobreposições.</li>
+                <li data-i18n="changelog.source">Reader e Pinboard continuam vinculados à página de origem ao alternar entre abas de ferramentas.</li>
+                <li data-i18n="changelog.downloads">A aba Downloads mostra o progresso em tempo real e permite pausar, retomar ou cancelar cada download individualmente.</li>
+            </ul>
         </section>
 
         <section class="about">
@@ -129,8 +162,8 @@
                     <span>Riverman</span>
                 </div>
                 <div class="footer-links">
-                    <a href="#">Docs</a>
-                    <a href="#">Changelog</a>
+                    <a href="#docs" data-i18n="docs.title">Documentação</a>
+                    <a href="#changelog" data-i18n="changelog.title">Histórico de versões</a>
                 </div>
             </div>
         </footer>
